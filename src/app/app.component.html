@@ -1,4 +1,21 @@
 <hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<body>
+  <h2>Registro de información de metano</h2>
+  <form action="/action_page.php">
+    Fecha:<br>
+    <input type="text" name="fecha" value="">
+    <br>
+    Ubicacion:<br>
+    <input type="text" name="ubicacion" value="">
+    <br>
+    Nombre de la refineria:<br>
+    <input type="text" name="refineria" value="">
+    <br>
+    Cantidad de metano:<br>
+    <input type="text" name="metano" value="">
+    <br><br>
+    <input type="submit" value="Registrar">
+  </form> 
+
+  <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
